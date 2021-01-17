@@ -1,0 +1,10 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:or13.github.io:deno-did-pm",
+  "service": [
+    {
+      "id": "#github",
+      "serviceEndpoint": "https://raw.githubusercontent.com"
+    }
+  ]
+}
